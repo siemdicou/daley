@@ -5,16 +5,16 @@ ob_start();
 session_start();
 
 // db properties
-// define('DBHOST','localhost');
-// define('DBUSER','root');
-// define('DBPASS','');
-// define('DBNAME','cms2');
+define('DBHOST','localhost');
+define('DBUSER','root');
+define('DBPASS','');
+define('DBNAME','cms2');
 
 //  Databasegegevens online
-define('DBHOST','rdbms.strato.de');
-define('DBUSER','U2501887');
-define('DBPASS','Strible2016');
-define('DBNAME','DB2501887');
+// define('DBHOST','rdbms.strato.de');
+// define('DBUSER','U2501887');
+// define('DBPASS','Strible2016');
+// define('DBNAME','DB2501887');
 
 // make a connection to mysql here
 $conn = @mysql_connect (DBHOST, DBUSER, DBPASS);
