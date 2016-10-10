@@ -29,7 +29,6 @@ require 'model/getContent.php';?>
 <div id="wrapper">
 	
 	<div id="content">
-	<br>
 
 		<?php	
 		
