@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
 body, html{
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
@@ -28,14 +28,15 @@ h1{
 }
 
 .regist {
-	border:2px solid white;
-	background:black;
+	border:2px solid #4285F4;
+	background:#fff;
 	padding:6px 6px 6px 6px;
 	margin-top: -7px;
 }
 .regist:hover {
 	border:2px solid white;
-	background-color: white;
+	background-color: #4285F4;
+    color: #fff;
 	transition:1s;
 	padding:6px 6px 6px 6px;
 	margin-top: -7px;
@@ -76,13 +77,13 @@ h5{
 	line-height: 20px;
 }
 p{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 p.intro{
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 a{ color: #71AEBF;}
 a:hover,
@@ -117,18 +118,21 @@ ul, ol{
 }
 /* Navigation */
 #tf-menu {
-	padding: 20px;
+	padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 	transition: all 0.8s;
 	
 
 }
 #tf-menu img{
-	width: 83px;
+	width: 200px;
 	display: inline-block;
 	padding:0% 5%; 
 }
 #tf-menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
 }
 #tf-menu a.navbar-brand {
@@ -140,7 +144,7 @@ ul, ol{
 
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #FFF;
+	color: #4285F4;
 	font-size: 16px;
 	letter-spacing: 1px;
 }
@@ -233,7 +237,7 @@ ul.about-list li{
 	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 ul.about-list li span{ 
 	margin-right: 10px;
@@ -290,7 +294,7 @@ ul.about-list li span{
 .paypal{
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #000000;
   font-size: 20px;
   text-decoration: none;
@@ -570,7 +574,7 @@ label {
 	float: left;
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .form-group label{

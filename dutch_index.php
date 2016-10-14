@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Stribble</title>
+    <title>Daley</title>
     <meta name="description" content="Stribble is een website die mensen met alle leeftijden helpt met hun beperking door middel van een assistieve app.">
     <meta name="keywords" content="stribble, hulp, ouderen, autisme, alzheimer, digitaal hulp, onafhankelijker worden, makkelijker, *nog meer verzinnen!!*">
     
 
     <!-- Favicons ################################ -->
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
@@ -30,7 +30,7 @@
     <!-- Talen Select ################################ -->
     <link rel="stylesheet" href="css/language-select.css">
 
-
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
@@ -63,7 +63,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logoblank.png">stribble</a>
+          <a class="navbar-brand" href="index.html"><img src="img/logodaley.png"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -87,7 +87,7 @@
     <div id="tf-home" class="text-center">
         <div class="overlay">
             <div class="content">
-                <span class="color"><h1>Welkom op <strong>Stribble</span></strong></h1>
+                <span class="color"><h1>Hoe speelt dat zich af?</h1></span>
                 <p class="lead">Het wordt alleen maar makkelijker</p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
