@@ -73,7 +73,7 @@
             <li><a href="#tf-about" class="page-scroll">Hoe het werkt</a></li>
             <li><a href="#tf-we" class="page-scroll">Nieuws</a></li> 
             <!-- <li><a href="#tf-#" class="page-scroll">Registreren</a></li> -->
-            <li><a href="#tf-contact" class="page-scroll"><div class="regist"><FONT COLOR="#fa9927">Registreer/Login</FONT></div></a></li>
+            <li><a href="#tf-contact" class="page-scroll"><div class="regist">Registreer/Login</div></a></li>
 
           </ul>
         </div><!-- /.navbar-collapse -->

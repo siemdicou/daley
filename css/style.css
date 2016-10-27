@@ -28,15 +28,16 @@ h1{
 }
 
 .regist {
-	border:2px solid #4285F4;
-	background:#fff;
+	background-color:#ED6205;
+    border:2px solid #ED6205;
 	padding:6px 6px 6px 6px;
 	margin-top: -7px;
+    color: #fff;
 }
 .regist:hover {
-	border:2px solid white;
-	background-color: #4285F4;
-    color: #fff;
+	border:2px solid #ED6205;
+	background-color: #fff;
+    color: #ED6205;
 	transition:1s;
 	padding:6px 6px 6px 6px;
 	margin-top: -7px;
@@ -135,9 +136,15 @@ ul, ol{
 }
 }
 
+
+
+.nav>li>a {
+    line-height: 70px;
+}
+
 #tf-menu.navbar-default {
 	background-color: #fff;
-	border-color: rgba(231, 231, 231, 0);
+	
 }
 #tf-menu a.navbar-brand {
 	text-transform: uppercase;
@@ -219,7 +226,7 @@ background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,
 a.fa.fa-angle-down {
 	padding: 10px 15px;
 	color: #fff;
-	border: 2px solid #b4b4b4;
+	
 	border-radius: 50%;
 	font-size: 24px;
 	margin-top: 200px;
@@ -230,7 +237,7 @@ a.fa.fa-angle-down {
 a.fa.fa-angle-down:hover{
 	background: #71AEBF;
 	color: #ffffff;
-	border: 2px solid #fff;
+	
 }
 
 /* About Section */
@@ -625,9 +632,13 @@ button.btn.tf-btn.btn-default {
 
 .page-scroll{
 	text-align: center;
-    margin-top: 20px;
+    
 }
 
+.page-scroll:last-child {
+	text-align: center;
+    padding: 0;
+}
 
 .btn:active, .btn.active {
 	background-image: none;
@@ -734,7 +745,7 @@ nav#footer p{
      }
 #tf-menu.navbar-default {
 	background-color: #fff;
-	border-color: rgba(231, 231, 231, 0);
+	
 }
 #tf-menu a.navbar-brand {
 	text-transform: uppercase;
