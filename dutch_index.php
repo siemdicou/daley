@@ -89,7 +89,10 @@
             <div class="content">
                 <span class="color"><h1>Hoe speelt dat zich af?</h1></span>
                 <p class="lead">Het wordt alleen maar makkelijker</p>
+                 <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+
+
             </div>
         </div>
     </div>
@@ -317,7 +320,7 @@ $(document).ready( function() {
     </script>
     <script>
     $('document').ready(function() {
-    var options = { videoId: 'f-UGhWj1xww', start: 3 };
+    var options = { videoId: 'bKdeqeP7VU0', start: 3 };
     $('.content').tubular(options);
     // f-UGhWj1xww cool sepia hd
     // 49SKbS7Xwf4 beautiful barn sepia
