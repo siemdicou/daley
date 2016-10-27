@@ -72,7 +72,6 @@
             <li><a href="#tf-home" class="page-scroll">Wat wij doen</a></li>
             <li><a href="#tf-about" class="page-scroll">Hoe het werkt</a></li>
             <li><a href="#tf-we" class="page-scroll">Nieuws</a></li> 
-            <li><a href="#tf-information" class="page-scroll">..</a></li>
             <!-- <li><a href="#tf-#" class="page-scroll">Registreren</a></li> -->
             <li><a href="#tf-contact" class="page-scroll"><div class="regist"><FONT COLOR="#fa9927">Registreer/Login</FONT></div></a></li>
 
@@ -89,8 +88,7 @@
             <div class="content">
                 <span class="color"><h1>Hoe speelt dat zich af?</h1></span>
 
-                <p class="lead">Blijf van me af</p>
-                <p class="lead">Het wordt alleen maar makkelijker</p>
+                
                  <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
 
@@ -154,10 +152,11 @@
     </div>
 
     <!-- desices information section
-    ==========================================-->
+  
+    
     <div id="tf-information" class="text-center">
-        <!-- <div class="container"> -->
-            <!-- <div class="section-title center"> -->
+        <!-- <div class="container"> 
+            <div class="section-title center"> 
                 <div class="my-slider">
                     <ul>
                     <li class="img1" style="background: url(img/<?php echo$result_ned[1]['image']?>) no-repeat center center; height: 600px; background-size: cover;">
@@ -178,11 +177,11 @@
                         </li>
                     </ul>
                 </div>
-            <!-- </div> -->
-        <!-- </div> -->
+           
+       
         
     </div>
-
+  -->
     <!-- Contact Section
     ==========================================-->
     <div id="tf-contact" class="text-center">
