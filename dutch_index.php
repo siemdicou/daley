@@ -30,13 +30,13 @@
     <!-- Talen Select ################################ -->
     <link rel="stylesheet" href="css/language-select.css">
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
     <!-- Custom JS ############################ -->
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
 
 
@@ -311,6 +311,16 @@ $(document).ready( function() {
         e.preventDefault();
         location.href = ($(this).children('.dd-option-value').val());
         });
+});
+</script>
+    <script tpye="text/javascript" src="js/tubalar.js">
+    </script>
+    <script>
+    $('document').ready(function() {
+    var options = { videoId: 'f-UGhWj1xww', start: 3 };
+    $('.content').tubular(options);
+    // f-UGhWj1xww cool sepia hd
+    // 49SKbS7Xwf4 beautiful barn sepia
 });
 </script>
     

@@ -186,7 +186,7 @@ ul, ol{
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/home.jpg);
+	/*background: url(../img/home.jpg);*/
 	/*background: url(../img/home.jpg);*/
 	background-size: cover;
 	background-position: center;
