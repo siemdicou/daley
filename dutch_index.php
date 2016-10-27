@@ -5,7 +5,7 @@
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Daley</title>
-    <meta name="description" content="Stribble is een website die mensen met alle leeftijden helpt met hun beperking door middel van een assistieve app.">
+    <meta name="description" content="Daley is een website die mensen met alle leeftijden helpt met hun beperking door middel van een assistieve app.">
     <meta name="keywords" content="stribble, hulp, ouderen, autisme, alzheimer, digitaal hulp, onafhankelijker worden, makkelijker, *nog meer verzinnen!!*">
     
 
