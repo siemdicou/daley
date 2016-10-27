@@ -69,12 +69,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Home</a></li>
-            <li><a href="#tf-about" class="page-scroll">Waarom</a></li>
-            <li><a href="#tf-we" class="page-scroll">Wie zijn wij</a></li> 
-            <li><a href="#tf-information" class="page-scroll">Info beperking</a></li>
+            <li><a href="#tf-home" class="page-scroll">Wat doen wij?</a></li>
+            <li><a href="#tf-about" class="page-scroll">Hoe werkt het</a></li>
+            <li><a href="#tf-we" class="page-scroll">Nieuws</a></li> 
+            <li><a href="#tf-information" class="page-scroll">..</a></li>
             <!-- <li><a href="#tf-#" class="page-scroll">Registreren</a></li> -->
-            <li><a href="#tf-contact" class="page-scroll"><div class="regist"><FONT COLOR="#fa9927">registreren</FONT></div></a></li>
+            <li><a href="#tf-contact" class="page-scroll"><div class="regist"><FONT COLOR="#fa9927">Registreer/Login</FONT></div></a></li>
 
           </ul>
         </div><!-- /.navbar-collapse -->

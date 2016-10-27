@@ -126,11 +126,23 @@ ul, ol{
 	
 
 }
+@media (max-width: 1200px) {
+#tf-menu img{
+    margin-top: 10px;
+	width: 150px;
+	display: inline-block;
+	padding:0% 5%; 
+}
+}
+
+@media (min-width: 1200px) {
 #tf-menu img{
 	width: 200px;
 	display: inline-block;
 	padding:0% 5%; 
 }
+}
+
 #tf-menu.navbar-default {
 	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
@@ -183,6 +195,8 @@ ul, ol{
 	color: #cfcfcf;
 	/*height:100vh;*/
 }
+
+
 
 #tf-home .overlay{
 background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
@@ -617,6 +631,7 @@ button.btn.tf-btn.btn-default {
 
 .page-scroll{
 	text-align: center;
+    margin-top: 20px;
 }
 
 
@@ -709,10 +724,14 @@ nav#footer p{
 
 }
 #tf-menu img{
-	width: 53px;
+	width: 100px;
 	display: inline-block;
 	padding:0% 5%; 
 }
+     
+   
+         
+     }
 #tf-menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);
 	border-color: rgba(231, 231, 231, 0);
