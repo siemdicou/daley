@@ -90,7 +90,7 @@
 
                 
                  <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
-                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+        
 
 
             </div>
@@ -100,7 +100,9 @@
     <!-- About Us Page
     ==========================================-->
     <div id="tf-about" class="text-center">
+           <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
         <div class="container">
+
             <div class="row wiestribble" >
                 <div class="col-md-6">
                     <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
@@ -186,11 +188,13 @@
     ==========================================-->
     <div id="tf-contact" class="text-center">
         <div class="container">
+            
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
 
                     <div class="section-title center">
+                        
                         <h2>Voel u vrij om te <strong><FONT COLOR="#fa9927">registreren!</FONT></strong></h2>
                         <div class="line">
                         </div>
