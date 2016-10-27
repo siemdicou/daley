@@ -222,7 +222,9 @@ a.fa.fa-angle-down {
 	border: 2px solid #b4b4b4;
 	border-radius: 50%;
 	font-size: 24px;
-	margin-top: 200px;
+position: absolute;
+    margin-top: -4em;
+    
 	transition: all 0.5s;
 
 	background: #71AEBF;
@@ -240,6 +242,14 @@ a.fa.fa-angle-down:hover{
 	/*height:100vh;*/
 }
 #tf-about .about-text{
+	
+	
+}
+
+
+#tf-about .fa fa-angle-down page-scroll{
+    position: absolute;
+    margin-top: -1em;
 	
 	
 }
