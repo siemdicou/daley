@@ -30,13 +30,13 @@
     <!-- Talen Select ################################ -->
     <link rel="stylesheet" href="css/language-select.css">
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
     <!-- Custom JS ############################ -->
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
 
 
@@ -88,8 +88,13 @@
         <div class="overlay">
             <div class="content">
                 <span class="color"><h1>Hoe speelt dat zich af?</h1></span>
+
                 <p class="lead">Blijf van me af</p>
+                <p class="lead">Het wordt alleen maar makkelijker</p>
+                 <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+
+
             </div>
         </div>
     </div>
@@ -311,6 +316,16 @@ $(document).ready( function() {
         e.preventDefault();
         location.href = ($(this).children('.dd-option-value').val());
         });
+});
+</script>
+    <script tpye="text/javascript" src="js/tubalar.js">
+    </script>
+    <script>
+    $('document').ready(function() {
+    var options = { videoId: 'bKdeqeP7VU0', start: 3 };
+    $('.content').tubular(options);
+    // f-UGhWj1xww cool sepia hd
+    // 49SKbS7Xwf4 beautiful barn sepia
 });
 </script>
     
