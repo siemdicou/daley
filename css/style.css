@@ -117,15 +117,7 @@ ul, ol{
 	moz-padding: 0;
 }
 /* Navigation */
-#tf-menu {
-	padding-top: 10px;
-    padding-bottom: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
-	transition: all 0.8s;
-	
 
-}
 @media (max-width: 1200px) {
 #tf-menu img{
     margin-top: 10px;
@@ -729,11 +721,17 @@ nav#footer p{
 	padding:0% 5%; 
 }
      
-   
+ #tf-menu.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 14px;
+	letter-spacing: 1px;
+     background-color: #fff;
+}  
          
      }
 #tf-menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
 }
 #tf-menu a.navbar-brand {
@@ -743,14 +741,9 @@ nav#footer p{
 	font-weight: 900;
 }
 
-#tf-menu.navbar-default .navbar-nav > li > a {
-	text-transform: uppercase;
-	color: #FFF;
-	font-size: 14px;
-	letter-spacing: 1px;
-}
+
 .on {
-	background-color: #222222 !important;
+	background-color: #fff !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, 
@@ -778,7 +771,7 @@ nav#footer p{
 	}
 
 #tf-menu.navbar-default {
-	background-color: rgba(0, 0, 0, 0.79);
+	background-color: #fff;
 	}
 #tf-works li.pull-right, #tf-works li.pull-left {
     margin-top: 10px;

@@ -69,8 +69,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Wat doen wij?</a></li>
-            <li><a href="#tf-about" class="page-scroll">Hoe werkt het</a></li>
+            <li><a href="#tf-home" class="page-scroll">Wat wij doen</a></li>
+            <li><a href="#tf-about" class="page-scroll">Hoe het werkt</a></li>
             <li><a href="#tf-we" class="page-scroll">Nieuws</a></li> 
             <li><a href="#tf-information" class="page-scroll">..</a></li>
             <!-- <li><a href="#tf-#" class="page-scroll">Registreren</a></li> -->
@@ -88,7 +88,7 @@
         <div class="overlay">
             <div class="content">
                 <span class="color"><h1>Hoe speelt dat zich af?</h1></span>
-                <p class="lead">Het wordt alleen maar makkelijker</p>
+                <p class="lead">Blijf van me af</p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
