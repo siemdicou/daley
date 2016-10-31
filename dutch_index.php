@@ -325,7 +325,7 @@ $(document).ready( function() {
     </script>
     <script>
     $('document').ready(function() {
-    var options = { videoId: 'bKdeqeP7VU0', start: 3 };
+    var options = { videoId: 'c8aFcHFu8QM', start: 3 };
     $('.content').tubular(options);
     // f-UGhWj1xww cool sepia hd
     // 49SKbS7Xwf4 beautiful barn sepia

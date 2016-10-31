@@ -31,8 +31,10 @@ h1{
 	background-color:#ED6205;
     border:2px solid #ED6205;
 	padding:6px 6px 6px 6px;
-	margin-top: -7px;
+	margin-top: 7px;
     color: #fff;
+    height: 50px;
+    line-height: 40px;
 }
 .regist:hover {
 	border:2px solid #ED6205;
