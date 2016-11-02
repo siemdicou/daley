@@ -31,7 +31,7 @@ h1{
 	background-color:#ED6205;
     border:2px solid #ED6205;
 	padding:6px 6px 6px 6px;
-	margin-top: -7px;
+/*	margin-top: -7px;*/
     color: #fff;
 }
 .regist:hover {
@@ -648,6 +648,7 @@ button.btn.tf-btn.btn-default {
 .page-scroll:last-child {
 	text-align: center;
     padding: 0;
+	line-height: 20px;
 }
 
 .btn:active, .btn.active {
