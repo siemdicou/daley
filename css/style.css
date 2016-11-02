@@ -42,7 +42,9 @@ h1{
     color: #ED6205;
 	transition:1s;
 	padding:6px 6px 6px 6px;
-	margin-top: -7px;
+	margin-top: 7px;
+    line-height: 40px;
+    h
 
 }
 
@@ -215,6 +217,11 @@ background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,
 	position: relative;
 	padding: 20% 0 0;
 
+}
+
+.nieuws {
+    background-color: red;
+    color: red;
 }
 
 .color{
@@ -748,7 +755,7 @@ nav#footer p{
      
  #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #FFF;
+	color: #4285F4;
 	font-size: 14px;
 	letter-spacing: 1px;
      background-color: #fff;
@@ -777,6 +784,7 @@ nav#footer p{
 	color: #71AEBF !important;
 	background-color: transparent;
 	font-weight: 700;
+    text-decoration: underline;
 }
 
 .navbar-toggle {

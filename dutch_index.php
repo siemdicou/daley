@@ -152,6 +152,21 @@
         </div>
         <a href="#tf-information" class="fa fa-angle-down page-scroll"></a>
     </div>
+        
+      <div id="tf-we" class="text-center">
+        <div class="overlay nieuws">
+            <div class="container">
+                <h1 class="wiezijnwij"><?php   echo $result_ned[5]['pageTitle']; ?></h1>
+                <Br>
+                <h3 class="wiezijnwij2">
+                    <?php   echo $result_ned[5]['pageCont']; ?>
+                </h3>
+                
+            </div>
+            
+        </div>
+        <a href="#tf-information" class="fa fa-angle-down page-scroll"></a>
+    </div>
 
     <!-- desices information section
   
