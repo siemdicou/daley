@@ -63,14 +63,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logodaley.png"></a>
+          <a class="navbar-brand" href="index.html"><img class="daley" src="img/logodaley.png"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Wat wij doen</a></li>
-            <li><a href="#tf-about" class="page-scroll">Hoe het werkt</a></li>
+            <li><a href="#tf-home" class="page-scroll">Hoe het werkt</a></li>
+            <li><a href="#tf-about" class="page-scroll">Wat doet Daley</a></li>
             <li><a href="#tf-we" class="page-scroll">Nieuws</a></li> 
             <!-- <li><a href="#tf-#" class="page-scroll">Registreren</a></li> -->
             <li><a href="#tf-contact" class="page-scroll"><div class="regist">Registreer/Login</div></a></li>
@@ -86,7 +86,7 @@
     <div id="tf-home" class="text-center">
         <div class="overlay">
             <div class="content">
-                <span class="color"><h1>Hoe speelt dat zich af?</h1></span>
+                <span class="color"><h1>Daley, plant de dag door.</h1></span>
 
                 
                  <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
@@ -143,30 +143,31 @@
             <div class="container">
                 <h1 class="wiezijnwij"><?php   echo $result_ned[5]['pageTitle']; ?></h1>
                 <Br>
-                <h3 class="wiezijnwij2">
-                    <?php   echo $result_ned[5]['pageCont']; ?>
-                </h3>
-                
+                    <div class="nieuwsvlak">
+                    <h3 class="nieuwstitle">Daley gaat vandaag online</h3>
+                        <p class="nieuwstekst">De app daley is vandaag online gegaan en je kan hem downloaden in de appstore.</p>
+                </div>
+                     <div class="oudberichtcontainer">
+                         <div class="oudbericht1">
+                    <h3 class="berichttitle">Daley gaat vandaag online</h3>
+                         </div>
+                     <div class="oudbericht1">
+                    <h3 class="berichttitle">Daley gaat vandaag online</h3>
+                         </div>
+                         
+                     <div class="oudbericht1">
+                    <h3 class="berichttitle">Daley gaat vandaag online</h3>
+                         </div>
+                         
+                    <img src="img/pijltje.png" class="pijltje" />
+                </div>
             </div>
             
         </div>
         <a href="#tf-information" class="fa fa-angle-down page-scroll"></a>
     </div>
         
-      <div id="tf-we" class="text-center">
-        <div class="overlay nieuws">
-            <div class="container">
-                <h1 class="wiezijnwij"><?php   echo $result_ned[5]['pageTitle']; ?></h1>
-                <Br>
-                <h3 class="wiezijnwij2">
-                    <?php   echo $result_ned[5]['pageCont']; ?>
-                </h3>
-                
-            </div>
-            
-        </div>
-        <a href="#tf-information" class="fa fa-angle-down page-scroll"></a>
-    </div>
+   
 
     <!-- desices information section
   
