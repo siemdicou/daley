@@ -146,7 +146,9 @@
                 <Br>
                     <div class="nieuwsvlak">
                     <h3 class="nieuwstitle">Daley gaat vandaag online</h3>
+                        
                         <p class="nieuwstekst">De app daley is vandaag online gegaan en je kan hem downloaden in de appstore.</p>
+                       
                 </div>
                      <div class="oudberichtcontainer">
                          <div class="oudbericht1">
@@ -208,13 +210,7 @@
         <div class="container">
 
             <div class="row wiestribble" >
-                <div class="col-md-6">
-                    <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
-                    <a href="#"><img  src="img/apple.jpg" class="apple"></a>
-                    <a href="#"><img  src="img/google.jpg" class="playstore"></a>
-                    
-                    
-                </div>
+               
                 <div class="col-md-6">
                     <div class="about-text">
                         <div class="section-title">
@@ -231,6 +227,12 @@
                             <?php   echo $result_ned[0]['pageCont']; ?>
                         </p>
                     </div>
+                </div>
+                 <div class="col-md-6">
+                    <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
+                  
+                    
+                    
                 </div>
             </div>
 
@@ -249,7 +251,7 @@
 
                     <div class="section-title center">
                         
-                        <h2>Voel u vrij om te <strong><FONT COLOR="#fa9927">registreren!</FONT></strong></h2>
+                        <h2 class="helpuzelf">Help u zelf en <strong><FONT COLOR="#fa9927">registreer!</FONT></strong></h2>
                         <div class="line">
                         </div>
                         <div class="clearfix"></div>
@@ -317,7 +319,7 @@
             
             <div class="pull-left fnav">
                 <div class="copyright">
-						© 2015 - 2016 All rights reserved. Trademark and intelectual property owned by <a style="color:white;" href="http://www.almisasolutions.com/" target="_blank">Almisa Solutions</a>. <a style="color:white;" href="http://kynsel.com/terms-and-conditions/">Terms and Conditions</a> - <a style="color:white;" href="http://kynsel.com/privacy-policy/">Privacy policy</a> - <a style="color:white;" href="http://kynsel.com/about-us/">About us</a> - <a style="color:white;" href="http://kynsel.com/faq/">FAQ's</a>					</div>
+						© 2015 - 2016 All rights reserved. Trademark and intelectual property owned by <a style="color:#222222;" href="http://www.almisasolutions.com/" target="_blank">Almisa Solutions</a>. <a style="color:#222222;" href="http://kynsel.com/terms-and-conditions/">Terms and Conditions</a> - <a style="color:#222222;" href="http://kynsel.com/privacy-policy/">Privacy policy</a> - <a style="color:#222222;" href="http://kynsel.com/about-us/">About us</a> - <a style="color: #222222;" href="http://kynsel.com/faq/">FAQ's</a>					</div>
             </div>
         </div>
     </nav>
