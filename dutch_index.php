@@ -165,7 +165,7 @@
             </div>
             
         </div>
-        <a href="#tf-information" class="fa fa-angle-down page-scroll"></a>
+       
     </div>
         
    
@@ -201,6 +201,43 @@
         
     </div>
   -->
+        
+        
+        <div id="tf-about" class="text-center">
+           <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+        <div class="container">
+
+            <div class="row wiestribble" >
+                <div class="col-md-6">
+                    <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
+                    <a href="#"><img  src="img/apple.jpg" class="apple"></a>
+                    <a href="#"><img  src="img/google.jpg" class="playstore"></a>
+                    
+                    
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h2><?php   echo $result_ned[0]['pageTitle']; ?></h2>
+                           <div class="clearfix"></div>
+                            <hr>
+                        </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <p class="waaromstrible">
+                            <?php   echo $result_ned[0]['pageCont']; ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+                    
+
+    </div>
     <!-- Contact Section
     ==========================================-->
     <div id="tf-contact" class="text-center">
@@ -277,19 +314,10 @@
  
     <nav id="footer">
         <div class="container">
-            <div class="pull-left fnav"> 
-            <p>&copy Bemika Software &#124; All Rights Reserved</p>
-            </div>
-            <div class="pull-right fnav">
-                <ul class="footer-social">
-                    <li>
-<form href="#contact" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal">
-        <button class="paypal"><i class="fa fa-paypal fa-fw"></i><p style="color: white; float: right; margin-left: 9px; line-height: 0.9em; font-size: 0.8em;">Doneer!</p></button>
-        <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="DENLACM55ECZS">
-<img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1"></form>
-                    </li>
-                </ul>
+            
+            <div class="pull-left fnav">
+                <div class="copyright">
+						© 2015 - 2016 All rights reserved. Trademark and intelectual property owned by <a style="color:white;" href="http://www.almisasolutions.com/" target="_blank">Almisa Solutions</a>. <a style="color:white;" href="http://kynsel.com/terms-and-conditions/">Terms and Conditions</a> - <a style="color:white;" href="http://kynsel.com/privacy-policy/">Privacy policy</a> - <a style="color:white;" href="http://kynsel.com/about-us/">About us</a> - <a style="color:white;" href="http://kynsel.com/faq/">FAQ's</a>					</div>
             </div>
         </div>
     </nav>

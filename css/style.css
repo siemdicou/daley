@@ -178,7 +178,6 @@ ul, ol{
     .nieuwstitle {
         color: #333;
         border-bottom: 1px solid #333;
-        margin-top: 60px;
         font-size: 1.6em;
         font-family: 'Montserrat', sans-serif;
     }
@@ -252,7 +251,6 @@ ul, ol{
     .nieuwstitle {
         color: #333;
         border-bottom: 1px solid #333;
-        margin-top: 60px;
         font-size: 1.6em;
         font-family: 'Montserrat', sans-serif;
     }
@@ -430,14 +428,14 @@ ul.about-list li span{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
-	height:100vh;
+	height: auto;
 }
 #tf-we .overlay{
 	background: rgba(0,0,0,0.8);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
 	background-attachment: fixed;
 	padding: 220px 0;
-	height: 100vh;
+	height: auto;
 }
 .section-title.center{
 	padding: 30px 0;
