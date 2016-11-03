@@ -90,7 +90,7 @@
                 <span class="color"><h1>Daley, je dagelijkse assistent.</h1></span>
 
                 
-                 <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
+                 <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.png"></a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
         
 
 
