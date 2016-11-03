@@ -127,6 +127,10 @@ ul, ol{
     .oudberichtcontainer {
         margin-top: 30px;
     }
+    
+    .containernieuws {
+        margin-left: 30%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -138,6 +142,7 @@ ul, ol{
         float: left;
         position: relative;
         text-align: left;
+        
     }
     
     .oudberichtcontainer {

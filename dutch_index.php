@@ -141,7 +141,7 @@
     ==========================================-->
     <div id="tf-we" class="text-center">
         <div class="overlay">
-            <div class="container">
+            <div class="container containernieuws">
                 <h1 class="wiezijnwij"><?php   echo $result_ned[5]['pageTitle']; ?></h1>
                 <Br>
                     <div class="nieuwsvlak">
