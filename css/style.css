@@ -123,6 +123,16 @@ ul, ol{
 }
 /* Navigation */
 
+@media (max-width: 1199px) {
+    .oudberichtcontainer {
+        margin-top: 30px;
+    }
+    
+    .containernieuws {
+        margin-left: 30%;
+    }
+}
+
 @media (max-width: 1200px) {
     
 .nieuwsvlak {
@@ -132,6 +142,7 @@ ul, ol{
         float: left;
         position: relative;
         text-align: left;
+        
     }
     
     .oudberichtcontainer {
@@ -737,9 +748,15 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Contact Section */
 #tf-contact{
-	background: rgba(255,255,255,0.9);
+	background: #222222;
+    opacity: 0.9;
 	padding: 80px 0;
 }
+
+.helpuzelf {
+    color: #fff;
+}
+
 
 label {
 	float: left;
@@ -749,7 +766,7 @@ label {
 }
 
 .form-group label{
-	color: #5a5a5a;
+	color: #fff;
 }
 #tf-contact .form-control {
 	display: block;
@@ -778,7 +795,7 @@ label {
 
 button.btn.tf-btn.btn-default {
 	float: right;
-	background: #71AEBF;
+	background: rgb(250, 153, 39);
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
@@ -816,8 +833,8 @@ button.btn.tf-btn.btn-default {
 }
 /* Footer */
 nav#footer{
-	background: #222222;
-	color: #ffffff;
+	background: #fff;
+	color: #222222;
 	padding: 20px 0 15px 0;
 }
 nav#footer .fnav{ vertical-align: middle;}
