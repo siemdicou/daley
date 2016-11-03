@@ -343,7 +343,13 @@ background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,
 	width: 200px;
 	height: 200px;
 }
-
+#vid-cont{
+	display: none;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .content{
 	position: relative;
 	padding: 20% 0 0;
@@ -944,6 +950,7 @@ nav#footer p{
  	
   .content {
 	padding: 30% 0 0;
+	    height: 100%;
 	}
 
 #tf-menu.navbar-default {
