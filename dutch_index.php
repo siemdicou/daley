@@ -72,6 +72,7 @@
             <li><a href="#tf-home" class="page-scroll">Hoe het werkt</a></li>
             <li><a href="#tf-about" class="page-scroll">Wat doet Daley</a></li>
             <li><a href="#tf-we" class="page-scroll">Nieuws</a></li> 
+            <li><a href="#tf-we" class="page-scroll">Voordelen</a></li> 
             <!-- <li><a href="#tf-#" class="page-scroll">Registreren</a></li> -->
             <li><a href="#tf-contact" class="page-scroll"><div class="regist">Registreer/Login</div></a></li>
 
@@ -86,7 +87,7 @@
     <div id="tf-home" class="text-center">
         <div class="overlay">
             <div class="content">
-                <span class="color"><h1>Daley, plant de dag door.</h1></span>
+                <span class="color"><h1>Daley, je dagelijkse assistent.</h1></span>
 
                 
                  <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
