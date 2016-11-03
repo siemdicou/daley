@@ -24,13 +24,13 @@ if(!$conn){
 }
 
 // define site path
-define('DIR','http://localhost/bewijzenmap/leerjaar2/periode3/project/stribble/');
+define('DIR','http://localhost/leerjaar3/daley/');
 
 // define admin site path
-define('DIRADMIN','http://localhost/bewijzenmap/leerjaar2/periode3/project/stribble/admin/');
+define('DIRADMIN','http://localhost/leerjaar3/daley/admin/');
 
 // define site title for top of the browser
-define('SITETITLE','Stribble');
+define('SITETITLE','daley');
 
 //define include checker
 define('included', 1);
