@@ -92,7 +92,7 @@
                 
                  <p id="video-controls" class="black-65">
 
-                 <a href="#" class="tubular-play" id="tubular-play"><img class="play-btn" src="img/video/play-button.png"></a> 
+                 <a href="#" class="tubular-play" id="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> 
 
                  </p>
 
@@ -100,18 +100,18 @@
                 <div id="vid-cont">
                 <p>
 
-                <a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.png"></a> <
+                <a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> <
                 |
-                <a href="#" class="tubular-pause">Pause</a>
+                <a href="#" class="tubular-pause"><img class="play-btn" src="img/video/pause.svg"></a>
                 | 
-                <a href="#" class="tubular-volume-up">Volume Up</a>
+                <a href="#" class="tubular-volume-up"><img class="play-btn" src="img/video/vol-up.svg"></a>
                 | 
-                <a href="#" class="tubular-volume-down">Volume Down</a> 
+                <a href="#" class="tubular-volume-down"><img class="play-btn" src="img/video/vol-down.svg"></a> 
                 |
-                <a href="#" class="tubular-mute">Mute</a>
+                <a href="#" class="tubular-mute"><img class="play-btn" src="img/video/mute.svg"></a>
                 </p>
 
-                 </div>     
+                </div>     
             </div>
         </div>
     </div>
