@@ -90,10 +90,28 @@
                 <span class="color"><h1>Daley, je dagelijkse assistent.</h1></span>
 
                 
-                 <p id="video-controls" class="black-65">Video controls:<br /><a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.png"></a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
-        
+                 <p id="video-controls" class="black-65">
+
+                 <a href="#" class="tubular-play" id="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> 
+
+                 </p>
 
 
+                <div id="vid-cont">
+                <p>
+
+                <a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> <
+                |
+                <a href="#" class="tubular-pause"><img class="play-btn" src="img/video/pause.svg"></a>
+                | 
+                <a href="#" class="tubular-volume-up"><img class="play-btn" src="img/video/vol-up.svg"></a>
+                | 
+                <a href="#" class="tubular-volume-down"><img class="play-btn" src="img/video/vol-down.svg"></a> 
+                |
+                <a href="#" class="tubular-mute"><img class="play-btn" src="img/video/mute.svg"></a>
+                </p>
+
+                </div>     
             </div>
         </div>
     </div>
@@ -141,6 +159,7 @@
     ==========================================-->
     <div id="tf-we" class="text-center">
         <div class="overlay">
+<<<<<<< HEAD
             <div class="container">
                 <h1 class="wiezijnwij"><?php echo $result_ned[5]['pageTitle']; ?></h1>
                 <Br>
@@ -150,6 +169,17 @@
                         <p class="nieuwstekst"><?php echo $row1["context"]; ?></p>
                         </div>
                     </div>
+=======
+            <div class="container containernieuws">
+                <h1 class="wiezijnwij"><?php   echo $result_ned[5]['pageTitle']; ?></h1>
+                <Br>
+                    <div class="nieuwsvlak">
+                    <h3 class="nieuwstitle">Daley gaat vandaag online</h3>
+                        
+                        <p class="nieuwstekst">De app daley is vandaag online gegaan en je kan hem downloaden in de appstore.</p>
+                       
+                </div>
+>>>>>>> 7d9aa9a280039a00aded95f3e3a871032969ad7f
                      <div class="oudberichtcontainer">
                     <div id="placeholderNews"></div>
 
@@ -203,13 +233,7 @@
         <div class="container">
 
             <div class="row wiestribble" >
-                <div class="col-md-6">
-                    <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
-                    <a href="#"><img  src="img/apple.jpg" class="apple"></a>
-                    <a href="#"><img  src="img/google.jpg" class="playstore"></a>
-                    
-                    
-                </div>
+               
                 <div class="col-md-6">
                     <div class="about-text">
                         <div class="section-title">
@@ -226,6 +250,12 @@
                             <?php   echo $result_ned[0]['pageCont']; ?>
                         </p>
                     </div>
+                </div>
+                 <div class="col-md-6">
+                    <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
+                  
+                    
+                    
                 </div>
             </div>
 
@@ -244,7 +274,7 @@
 
                     <div class="section-title center">
                         
-                        <h2>Voel u vrij om te <strong><FONT COLOR="#fa9927">registreren!</FONT></strong></h2>
+                        <h2 class="helpuzelf">Help u zelf en <strong><FONT COLOR="#fa9927">registreer!</FONT></strong></h2>
                         <div class="line">
                         </div>
                         <div class="clearfix"></div>
@@ -312,7 +342,7 @@
             
             <div class="pull-left fnav">
                 <div class="copyright">
-						© 2015 - 2016 All rights reserved. Trademark and intelectual property owned by <a style="color:white;" href="http://www.almisasolutions.com/" target="_blank">Almisa Solutions</a>. <a style="color:white;" href="http://kynsel.com/terms-and-conditions/">Terms and Conditions</a> - <a style="color:white;" href="http://kynsel.com/privacy-policy/">Privacy policy</a> - <a style="color:white;" href="http://kynsel.com/about-us/">About us</a> - <a style="color:white;" href="http://kynsel.com/faq/">FAQ's</a>					</div>
+						© 2015 - 2016 All rights reserved. Trademark and intelectual property owned by <a style="color:#222222;" href="http://www.almisasolutions.com/" target="_blank">Almisa Solutions</a>. <a style="color:#222222;" href="http://kynsel.com/terms-and-conditions/">Terms and Conditions</a> - <a style="color:#222222;" href="http://kynsel.com/privacy-policy/">Privacy policy</a> - <a style="color:#222222;" href="http://kynsel.com/about-us/">About us</a> - <a style="color: #222222;" href="http://kynsel.com/faq/">FAQ's</a>					</div>
             </div>
         </div>
     </nav>
@@ -362,7 +392,7 @@ $(document).ready( function() {
         getNews();
 });
 </script>
-    <script tpye="text/javascript" src="js/tubalar.js">
+    <script type="text/javascript" src="js/tubalar.js">
     </script>
     <script>
     $('document').ready(function() {
@@ -396,6 +426,7 @@ $(document).ready( function() {
     }
 
 </script>
+    <script type="text/javascript" src="js/hi.js"> </script>
     
   </body>
 </html>
