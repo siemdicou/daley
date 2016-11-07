@@ -139,6 +139,7 @@ ul, ol{
         width: 500px;
         position: relative;
         float: left;
+        overflow: scroll;
         
     }
     
@@ -212,6 +213,8 @@ ul, ol{
         width: 500px;
         position: relative;
         float: left;
+        overflow: scroll;
+        
         
     }
     

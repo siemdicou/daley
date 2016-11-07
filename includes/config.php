@@ -1,6 +1,5 @@
 <?php
 
-
 ob_start();
 session_start();
 
@@ -17,11 +16,25 @@ define('DBNAME','cms2');
 // define('DBNAME','DB2501887');
 
 // make a connection to mysql here
-$conn = @mysql_connect (DBHOST, DBUSER, DBPASS);
-$conn = @mysql_select_db (DBNAME);
-if(!$conn){
-	die( "Sorry! There seems to be a problem connecting to our database.");
+    $mysql_hostname = "localhost";
+
+    /*** mysql username ***/
+    $mysql_username = "root";
+
+    /*** mysql password ***/
+    $mysql_password = "";
+
+    /*** database name ***/
+    $mysql_dbname = "cms2";
+
+
+$mysqli = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
+
+if ($mysqli->connect_errno) {
+echo "Failed to connect to MySQL:
+(" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
+
 
 // define site path
 define('DIR','http://localhost/leerjaar3/daley/');
@@ -35,5 +48,5 @@ define('SITETITLE','daley');
 //define include checker
 define('included', 1);
 
-include('functions.php');
+// include('functions.php');
 ?>

@@ -17,8 +17,8 @@
 </tr>
 
 <?php
-$sql = mysql_query("SELECT * FROM pages ORDER BY pageID");
-while($row = mysql_fetch_object($sql)) 
+$sql = $mysqli->query("SELECT * FROM pages ORDER BY pageID");
+while($row = mysqli_fetch_object($sql)) 
 {
 	echo "<tr>";
 		echo "<td>$row->pageTitle</td>";

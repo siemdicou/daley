@@ -1,9 +1,6 @@
 <?php
-
-
-
  require('../includes/config.php'); 
-if(logged_in()) {header('Location: '.DIRADMIN);}
+// if(logged_in()) {header('Location: '.DIRADMIN);}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <head>
@@ -12,24 +9,11 @@ if(logged_in()) {header('Location: '.DIRADMIN);}
 <link rel="stylesheet" href="<?php echo DIR;?>style/login.css" type="text/css">
 </head>
 <body>
-<div class="lwidth">
-	<div class="page-wrap">
-		<div class="content">
-		
-		<?php 
-		if($_POST['submit']) {
-			login($_POST['username'], $_POST['password']);
-		}
-		?>
-
-<div id="login">
-
-	<form method="post" action="">
-	<p><label><strong>Username</strong><input type="text" name="username" /></label></p>
-	<p><label><strong>Password</strong><input type="password" name="password" /></label></p>
-	<p><br /><input type="submit" name="submit" class="button" value="login" /></p>                       
-	</form>	  	  
-</div>
+<form action="login_model.php" method="POST">
+	<input type="username" name="username">
+	<input type="password" name="password">
+	<input type="submit">
+</form>
 		
 		</div>	
 		<div class="clear"></div>		

@@ -142,25 +142,20 @@
     <div id="tf-we" class="text-center">
         <div class="overlay">
             <div class="container">
-                <h1 class="wiezijnwij"><?php   echo $result_ned[5]['pageTitle']; ?></h1>
+                <h1 class="wiezijnwij"><?php echo $result_ned[5]['pageTitle']; ?></h1>
                 <Br>
                     <div class="nieuwsvlak">
-                    <h3 class="nieuwstitle">Daley gaat vandaag online</h3>
-                        <p class="nieuwstekst">De app daley is vandaag online gegaan en je kan hem downloaden in de appstore.</p>
-                </div>
+                    <div id="placeholderCurentNews">
+                        <h3 class="nieuwstitle"><?php echo $row1["title"]; ?></h3>
+                        <p class="nieuwstekst"><?php echo $row1["context"]; ?></p>
+                        </div>
+                    </div>
                      <div class="oudberichtcontainer">
-                         <div class="oudbericht1">
-                    <h3 class="berichttitle">Daley gaat vandaag online</h3>
-                         </div>
-                     <div class="oudbericht1">
-                    <h3 class="berichttitle">Daley gaat vandaag online</h3>
-                         </div>
+                    <div id="placeholderNews"></div>
+
+
                          
-                     <div class="oudbericht1">
-                    <h3 class="berichttitle">Daley gaat vandaag online</h3>
-                         </div>
-                         
-                    <img src="img/pijltje.png" class="pijltje" />
+                    <!-- <img src="img/pijltje.png" class="pijltje" /> -->
                 </div>
             </div>
             
@@ -364,6 +359,7 @@ $(document).ready( function() {
         e.preventDefault();
         location.href = ($(this).children('.dd-option-value').val());
         });
+        getNews();
 });
 </script>
     <script tpye="text/javascript" src="js/tubalar.js">
@@ -375,6 +371,30 @@ $(document).ready( function() {
     // f-UGhWj1xww cool sepia hd
     // 49SKbS7Xwf4 beautiful barn sepia
 });
+
+    //de data live door geven door ajax
+    function getNews() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("placeholderNews").innerHTML = xhttp.responseText;
+            }
+        };
+        xhttp.open("GET", "model/getNews.php", true);
+        xhttp.send();
+    }
+    // var clicked = document.getElementById("").click
+    function updateNews(qrData) {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("placeholderCurentNews").innerHTML = xhttp.responseText;
+            }
+        };
+        xhttp.open("GET", "model/latestNews.php?clicked=" + qrData, true);
+        xhttp.send();
+    }
+
 </script>
     
   </body>

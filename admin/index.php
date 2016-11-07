@@ -12,7 +12,9 @@ $lang = (empty($_GET['lang'])) ? '' : $_GET['lang'];
 
 
 //make sure user is logged in, function will redirect use if not logged in
-login_required();
+if(isset( $_SESSION['user_id'] )){
+
+
 
 //if logout has been clicked run the logout function which will destroy any active sessions and redirect to the login page
 if(isset($_GET['logout'])){
@@ -23,8 +25,8 @@ if(isset($_GET['logout'])){
 if(isset($_GET['delpage'])){
 		
 	$delpage = $_GET['delpage'];
-	$delpage = mysql_real_escape_string($delpage);
-	$sql = mysql_query("DELETE FROM pages WHERE pageID = '$delpage'");
+	$delpage = $mysqli->real_escape_string($delpage);
+	$sql = $mysqli->query("DELETE FROM pages WHERE pageID = '$delpage'");
     $_SESSION['success'] = "Page Deleted"; 
     header('Location: ' .DIRADMIN);
    	exit();
@@ -81,3 +83,4 @@ switch ($lang) {
 
 </body>
 </html>
+<?php } ?>

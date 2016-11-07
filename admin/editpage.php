@@ -1,10 +1,4 @@
 <?php 
-/*-------------------------------------------------------+
-| Content Management System 
-| http://www.phphelptutorials.com/
-+--------------------------------------------------------+
-| Author: David Carr  Email: dave@daveismyname.co.uk
-+--------------------------------------------------------+*/
 
 require('../includes/config.php'); 
 
@@ -19,10 +13,10 @@ if(isset($_POST['submit'])){
 	$pageID = $_POST['pageID'];
 	$newImage = $_POST['image'];
 	
-	$title = mysql_real_escape_string($title);
-	$content = mysql_real_escape_string($content);
+	$title = $mysqli->real_escape_string($title);
+	$content = $mysqli->real_escape_string($content);
 	
-	mysql_query("UPDATE pages SET pageTitle='$title', pageCont='$content', image='$newImage'WHERE pageID='$pageID'");
+	$mysqli->query("UPDATE pages SET pageTitle='$title', pageCont='$content', image='$newImage'WHERE pageID='$pageID'");
 	$_SESSION['success'] = 'Page Updated';
 	header('Location: '.DIRADMIN);
 	exit();
@@ -59,9 +53,9 @@ if(isset($_POST['submit'])){
 
 <?php
 $id = $_GET['id'];
-$id = mysql_real_escape_string($id);
-$q = mysql_query("SELECT * FROM pages WHERE pageID='$id'");
-$row = mysql_fetch_object($q);
+$id = $mysqli->real_escape_string($id);
+$q = $mysqli->query("SELECT * FROM pages WHERE pageID='$id'");
+$row = mysqli_fetch_object($q);
 ?>
 
 

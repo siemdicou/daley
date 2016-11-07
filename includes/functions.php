@@ -1,12 +1,5 @@
 <?php
-
-/*-------------------------------------------------------+
-| Content Management System 
-| http://www.phphelptutorials.com/
-+--------------------------------------------------------+
-| Author: David Carr  Email: dave@daveismyname.co.uk
-+--------------------------------------------------------+*/
-
+// require 'config.php';
 if (!defined('included')){
 die('You cannot access this file directly!');
 }
@@ -17,12 +10,11 @@ function login($user, $pass){
    //strip all tags from varible   
    $user = strip_tags(mysql_real_escape_string($user));
    $pass = strip_tags(mysql_real_escape_string($pass));
-
    $pass = md5($pass);
 
    // check if the user id and password combination exist in database
    $sql = "SELECT * FROM members WHERE username = '$user' AND password = '$pass'";
-   $result = mysql_query($sql) or die('Query failed. ' . mysql_error());
+   $result = $mysqli->query($sql) or die('Query failed. ' . mysql_error());
       
    if (mysql_num_rows($result) == 1) {
       // the username and password match,

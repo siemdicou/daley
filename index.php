@@ -3,6 +3,7 @@
 <?php 
     require 'includes/config.php'; 
     require 'model/getContent.php';
+    require 'model/latestNewsDefault.php';
     $lang = (empty($_GET['lang'])) ? '' : $_GET['lang'];
     switch ($lang) {
         case 'dutch':

@@ -30,9 +30,9 @@
 
 <?php
 $id = $_GET['id'];
-$id = $mysqli->real_escape_string($id);
-$q = $mysqli->query("SELECT * FROM pages WHERE pageID='$id'");
-$row = mysqli_fetch_object($q);
+$id = mysql_real_escape_string($id);
+$q = mysql_query("SELECT * FROM pages WHERE pageID='$id'");
+$row = mysql_fetch_object($q);
 ?>
 
 

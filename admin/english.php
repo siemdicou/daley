@@ -17,15 +17,48 @@
 </tr>
 
 <?php
-$sql = mysql_query("SELECT * FROM pages ORDER BY pageID");
-while($row = mysql_fetch_object($sql)) 
+$sql = $mysqli->query("SELECT * FROM pages ORDER BY pageID");
+while($row = mysqli_fetch_object($sql)) 
 {
 	echo "<tr>";
 		echo "<td>$row->pageTitle</td>";
 			echo "<td><a href=\"".DIRADMIN."editpage_eng.php?id=$row->pageID\">Edit</a></td>";
 	echo "</tr>";
 }
+
+
 ?>
+
+</table>
+
+<h1>news articles</h1>
+<a href="newspage.html">
+	<button type="submit">add news articles </button>
+</a>
+<br>
+<br>
+<table>
+<tr>
+	<th><strong>Title</strong></th>
+	<th><strong>date</strong></th>
+	<th><strong>Action</strong></th>
+</tr>
+
+<?php 
+
+
+$sql2 = $mysqli->query("SELECT * FROM news ORDER BY date DESC");
+while($row = mysqli_fetch_object($sql2)) 
+{
+	echo "<tr>";
+		echo "<td>$row->title</td>";
+		echo "<td>$row->date</td>";
+			echo "<td><a href=\"".DIRADMIN."editpage_eng.php?id=$row->id\">Edit</a></td>";
+	echo "</tr>";
+}
+
+?>
+
 </table>
 
 </div>
