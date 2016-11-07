@@ -159,8 +159,7 @@
     ==========================================-->
     <div id="tf-we" class="text-center">
         <div class="overlay">
-<<<<<<< HEAD
-            <div class="container">
+            <div class="container containernieuws">
                 <h1 class="wiezijnwij"><?php echo $result_ned[5]['pageTitle']; ?></h1>
                 <Br>
                     <div class="nieuwsvlak">
@@ -169,17 +168,6 @@
                         <p class="nieuwstekst"><?php echo $row1["context"]; ?></p>
                         </div>
                     </div>
-=======
-            <div class="container containernieuws">
-                <h1 class="wiezijnwij"><?php   echo $result_ned[5]['pageTitle']; ?></h1>
-                <Br>
-                    <div class="nieuwsvlak">
-                    <h3 class="nieuwstitle">Daley gaat vandaag online</h3>
-                        
-                        <p class="nieuwstekst">De app daley is vandaag online gegaan en je kan hem downloaden in de appstore.</p>
-                       
-                </div>
->>>>>>> 7d9aa9a280039a00aded95f3e3a871032969ad7f
                      <div class="oudberichtcontainer">
                     <div id="placeholderNews"></div>
 
