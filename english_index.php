@@ -90,7 +90,7 @@
                 
                  <p id="video-controls" class="black-65">
 
-                 <a href="#" class="tubular-play play-btn1" id="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> 
+                 <a href="#" class="tubular-play " id="tubular-play"><img class="play-btn1" src="img/video/play-button.svg"></a> 
                  </p>
 
                 <div id="vid-cont">
