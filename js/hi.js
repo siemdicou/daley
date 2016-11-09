@@ -1,4 +1,4 @@
-function initMap(status = false) { //1
+ function initMap(status = false) { //1
         if (!status){
             $('#tubular-play').fadeOut(1000);
             $('#vid-cont').fadeIn(1000);
@@ -17,6 +17,6 @@ function initMap(status = false) { //1
 document.getElementById("tubular-play").addEventListener("click", function(){
     initMap(false);
 });
-document.getElementById("vid-cont").addEventListener("click", function(){
+document.getElementById("tubular-back").addEventListener("click", function(){
     initMap(true);
 });

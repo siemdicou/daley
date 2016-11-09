@@ -363,6 +363,13 @@ background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,
     bottom: 0;
     left: 0;
     right: 0;
+    margin-bottom: 10em;
+}
+.play-btn{
+	width: 6em;
+}
+.play-btn1{
+	width: 200px;
 }
 .content{
 	position: relative;

@@ -92,23 +92,25 @@
                 
                  <p id="video-controls" class="black-65">
 
-                 <a href="#" class="tubular-play" id="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> 
-
+                 <a href="#" class="tubular-play play-btn1" id="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> 
                  </p>
-
 
                 <div id="vid-cont">
                 <p>
 
-                <a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a> <
-                |
+                <a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a>
+            
                 <a href="#" class="tubular-pause"><img class="play-btn" src="img/video/pause.svg"></a>
-                | 
+                
                 <a href="#" class="tubular-volume-up"><img class="play-btn" src="img/video/vol-up.svg"></a>
-                | 
+                
                 <a href="#" class="tubular-volume-down"><img class="play-btn" src="img/video/vol-down.svg"></a> 
-                |
+                
                 <a href="#" class="tubular-mute"><img class="play-btn" src="img/video/mute.svg"></a>
+
+                <a href="#" class="tubular-back" id="tubular-back"><img class="play-btn" src="img/video/back.svg"></a>
+
+
                 </p>
 
                 </div>     
@@ -384,7 +386,7 @@ $(document).ready( function() {
     </script>
     <script>
     $('document').ready(function() {
-    var options = { videoId: 'c8aFcHFu8QM', start: 3 };
+    var options = { videoId: 'M8Kpo6NaeK0', start: 3 };
     $('.content').tubular(options);
     // f-UGhWj1xww cool sepia hd
     // 49SKbS7Xwf4 beautiful barn sepia
