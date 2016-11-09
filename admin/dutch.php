@@ -31,8 +31,37 @@ while($row = mysqli_fetch_object($sql))
 ?>
 </table>
 
-</div>
+<h1>Nieuws Artikelen</h1>
+<a href="newspage_dutch.php">
+	<button type="submit">Nieuwsartikel Toevoegen </button>
+</a>
+<br>
+<br>
+<table>
+<tr>
+	<th><strong>Title</strong></th>
+	<th><strong>Datum</strong></th>
+	<th><strong>Actie</strong></th>
+</tr>
 
+<?php 
+
+
+$sql2 = $mysqli->query("SELECT * FROM news ORDER BY date DESC");
+while($row = mysqli_fetch_object($sql2)) 
+{
+	echo "<tr>";
+		echo "<td>$row->title</td>";
+		echo "<td>$row->date</td>";
+			echo "<td><a href=\"".DIRADMIN."editnews_dutch.php?id=$row->id\">Aanpassen</a></td>";
+	echo "</tr>";
+}
+
+?>
+
+</table>
+
+</div>
 
 </div><!-- close wrapper -->
 

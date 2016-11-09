@@ -1,4 +1,5 @@
-
+<?php 
+require('../includes/config.php');  ?>
 
 </form>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -13,11 +14,10 @@
 <body>
 <div id="wrapper">
 
-
 <!-- NAV -->
 <div id="navigation">
 <ul class="menu">
-<li><a href="<?php echo DIRADMIN;?>">Admin</a></li>
+<li><a href="<?php echo DIRADMIN;?>?lang=english">Back</a></li>
 <li><a href="<?php echo DIRADMIN;?>?logout">Logout</a></li>
 <li><a href="<?php echo DIR;?>" target="_blank">View Website</a></li>
 </ul>
@@ -26,21 +26,15 @@
 
 <div id="content">
 
-<h1>Edit Page</h1>
-
-<?php
-$id = $_GET['id'];
-$id = mysql_real_escape_string($id);
-$q = mysql_query("SELECT * FROM news WHERE id='$id'");
-$row = mysql_fetch_object($q);
-?>
+<h1>Add News Article</h1>
 
 
-<form action="" method="post">
-<input type="hidden" name="pageID" value="<?php echo $row->pageID;?>" />
-<p>Title:<br /> <input name="pageTitle" type="text" value="<?php echo $row->title;?>" size="103" />
+
+<form action="<?php echo DIR;?>model/news_eng.php" method="post">
+<input type="hidden" name="pageID" value="<?php echo $id?>" />
+<p>Title:<br /> <input name="title" type="text"  size="103" required/>
 </p>
-<p>content<br /><textarea name="pageCont" cols="100" rows="20"><?php echo $row->context;?></textarea>
+<p>Content:<br /><textarea name="content" cols="100" rows="20" required></textarea>
 </p>
 <p><input type="submit" name="submit" value="Submit" class="button" /></p>
 </form>

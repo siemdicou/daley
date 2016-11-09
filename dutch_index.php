@@ -126,7 +126,7 @@
 
             <div class="row wiestribble" >
                 <div class="col-md-6">
-                    <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
+                    <img src="img/uploads/<?php echo$result_ned[0]['image']?>" class="img-responsive">
                     <a href="#"><img  src="img/apple.jpg" class="apple"></a>
                     <a href="#"><img  src="img/google.jpg" class="playstore"></a>
                     
@@ -162,7 +162,7 @@
     <div id="tf-we" class="text-center">
         <div class="overlay">
             <div class="container containernieuws">
-                <h1 class="wiezijnwij"><?php echo $result_ned[5]['pageTitle']; ?></h1>
+                <h1 class="wiezijnwij">Wie zijn wij?</h1>
                 <Br>
                     <div class="nieuwsvlak">
                     <div id="placeholderCurentNews">
@@ -185,37 +185,7 @@
         
    
 
-    <!-- desices information section
-  
-    
-    <div id="tf-information" class="text-center">
-        <!-- <div class="container"> 
-            <div class="section-title center"> 
-                <div class="my-slider">
-                    <ul>
-                    <li class="img1" style="background: url(img/<?php echo$result_ned[1]['image']?>) no-repeat center center; height: 600px; background-size: cover;">
-                            <h1><?php   echo $result_ned[1]['pageTitle']; ?></h1>
-                            <p><?php   echo $result_ned[1]['pageCont']; ?></p>
-                        </li>
-                        <li class="img2" style="background: url(img/<?php echo$result_ned[2]['image']?>) no-repeat center center; height: 600px; background-size: cover;">
-                            <h1><?php   echo $result_ned[2]['pageTitle']; ?></h1>
-                            <p><?php   echo $result_ned[2]['pageCont']; ?></p>
-                        </li>
-                        <li class="img3" style="background: url(img/<?php echo$result_ned[3]['image']?>) no-repeat center center; height: 600px; background-size: cover;">
-                            <h1><?php   echo $result_ned[3]['pageTitle']; ?></h1>
-                            <p><?php   echo $result_ned[3]['pageCont']; ?></p>
-                        </li>
-                         <li class="img4" style="background: url(img/<?php echo$result_ned[4]['image']?>) no-repeat center center; height: 600px; background-size: cover;">
-                            <h1><?php   echo $result_ned[4]['pageTitle']; ?></h1>
-                            <p><?php   echo $result_ned[4]['pageCont']; ?></p>
-                        </li>
-                    </ul>
-                </div>
-           
-       
-        
-    </div>
-  -->
+
         
         
         <div id="tf-about" class="text-center">
@@ -227,7 +197,7 @@
                 <div class="col-md-6">
                     <div class="about-text">
                         <div class="section-title">
-                            <h2><?php   echo $result_ned[0]['pageTitle']; ?></h2>
+                            <h2><?php   echo $result_ned[1]['pageTitle']; ?></h2>
                            <div class="clearfix"></div>
                             <hr>
                         </div>
@@ -237,12 +207,12 @@
                             <br>
                             
                             <p class="waaromstrible">
-                            <?php   echo $result_ned[0]['pageCont']; ?>
+                            <?php   echo $result_ned[1]['pageCont']; ?>
                         </p>
                     </div>
                 </div>
                  <div class="col-md-6">
-                    <img src="img/<?php echo$result_ned[0]['image']?>" class="img-responsive">
+                    <img src="img/uploads/<?php echo$result_ned[1]['image']?>" class="img-responsive">
                   
                     
                     

@@ -1,6 +1,28 @@
+<?php 
+require('../includes/config.php'); 
+
+	if(isset($_POST['submit'])){
+
+	$title = $_POST['pageTitle'];
+	$content = $_POST['pageCont'];
+	$pageID = $_POST['pageID'];
+
+	
+	$title = $mysqli->real_escape_string($title);
+	$content = $mysqli->real_escape_string($content);
+	
+	$mysqli->query("UPDATE news SET pageTitle='$title', pageCont='$content' WHERE pageID='$pageID'");
+	$_SESSION['success'] = 'Page Updated';
+	header('Location: '.DIRADMIN);
+	exit();
+
+}
+
+ ?>
 
 
-</form>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -17,9 +39,9 @@
 <!-- NAV -->
 <div id="navigation">
 <ul class="menu">
-<li><a href="<?php echo DIRADMIN;?>">Admin</a></li>
-<li><a href="<?php echo DIRADMIN;?>?logout">Logout</a></li>
-<li><a href="<?php echo DIR;?>" target="_blank">View Website</a></li>
+<li><a href="<?php echo DIRADMIN;?>?lang=dutch">Terug</a></li>
+<li><a href="<?php echo DIRADMIN;?>?logout">Uitloggen</a></li>
+<li><a href="<?php echo DIR;?>" target="_blank">Bekijk Website</a></li>
 </ul>
 </div>
 <!-- END NAV -->
@@ -30,9 +52,9 @@
 
 <?php
 $id = $_GET['id'];
-$id = mysql_real_escape_string($id);
-$q = mysql_query("SELECT * FROM news WHERE id='$id'");
-$row = mysql_fetch_object($q);
+$id = $mysqli->real_escape_string($id);
+$q = $mysqli->query("SELECT * FROM news WHERE id='$id'");
+$row = mysqli_fetch_object($q);
 ?>
 
 

@@ -31,29 +31,29 @@ while($row = mysqli_fetch_object($sql))
 
 </table>
 
-<h1>news articles</h1>
-<a href="newspage.html">
-	<button type="submit">add news articles </button>
+<h1>News Articles</h1>
+<a href="newspage_eng.php">
+	<button type="submit">Add News Article </button>
 </a>
 <br>
 <br>
 <table>
 <tr>
 	<th><strong>Title</strong></th>
-	<th><strong>date</strong></th>
+	<th><strong>Date</strong></th>
 	<th><strong>Action</strong></th>
 </tr>
 
 <?php 
 
 
-$sql2 = $mysqli->query("SELECT * FROM news ORDER BY date DESC");
+$sql2 = $mysqli->query("SELECT * FROM news_eng ORDER BY date DESC");
 while($row = mysqli_fetch_object($sql2)) 
 {
 	echo "<tr>";
 		echo "<td>$row->title</td>";
 		echo "<td>$row->date</td>";
-			echo "<td><a href=\"".DIRADMIN."editpage_eng.php?id=$row->id\">Edit</a></td>";
+			echo "<td><a href=\"".DIRADMIN."editnews_eng.php?id=$row->id\">Edit</a></td>";
 	echo "</tr>";
 }
 
