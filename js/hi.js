@@ -3,6 +3,7 @@
             $('#tubular-play').fadeOut(1000);
             $('#vid-cont').fadeIn(1000);
             $('#tf-home .overlay').css("background", "-webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.0) 0%,rgba(0,0,0,0.0) 100%)")
+            $('#tf-home>.overlay>.content>.color>h1').fadeOut(1000);
         }//3
         
         
@@ -10,7 +11,7 @@
           $('#vid-cont').fadeOut(1000);
           $('#tubular-play').fadeIn(1000);
           $('#tf-home .overlay').css("background", "-webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%)")
-          
+          $('#tf-home>.overlay>.content>.color>h1').fadeIn(1000);
         }
     };
         //   $('#contactBanner').fadeIn(1000);}
