@@ -128,6 +128,7 @@ ul, ol{
 
 .oudberichtcontainer {
     float:right;
+    overflow: auto;
 }
 
  
@@ -162,8 +163,7 @@ ul, ol{
     .oudberichtcontainer {
         height: 400px;
         position: relative;
-        float: left;
-        overflow: scroll;
+        
         
     }
     
@@ -186,6 +186,8 @@ ul, ol{
         margin-top: 110px;
         margin-left: -30px;
     }
+    
+    
     
     .berichttitle {
         color: #333;
@@ -241,9 +243,7 @@ ul, ol{
         height: 400px;
         width: 500px;
         position: relative;
-        float: right;
-        overflow: scroll;
-        
+        float: right;        
         
     }
     
