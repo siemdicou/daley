@@ -67,12 +67,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Hoe het werkt</a></li>
-            <li><a href="#tf-about" class="page-scroll">Wat doet Daley</a></li>
-            <li><a href="#tf-we" class="page-scroll">Nieuws</a></li> 
-            <li><a href="#tf-we" class="page-scroll">Voordelen</a></li> 
+            <li><a href="#tf-home" class="page-scroll">How it works</a></li>
+            <li><a href="#tf-about" class="page-scroll">What Daley does</a></li>
+            <li><a href="#tf-we" class="page-scroll">News</a></li> 
+            <li><a href="#tf-we" class="page-scroll">Benefits</a></li> 
             <!-- <li><a href="#tf-#" class="page-scroll">Registreren</a></li> -->
-            <li><a href="#tf-contact" class="page-scroll"><div class="regist">Registreer/Login</div></a></li>
+            <li><a href="#tf-contact" class="page-scroll"><div class="regist">Register/Login</div></a></li>
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -160,7 +160,7 @@
     <div id="tf-we" class="text-center">
         <div class="overlay">
             <div class="container containernieuws">
-                <h1 class="wiezijnwij">Who are we?</h1>
+                <h1 class="wiezijnwij">News</h1>
                 <Br>
                     <div class="nieuwsvlak">
                     <div id="placeholderCurentNews">
@@ -224,7 +224,7 @@
 
                     <div class="section-title center">
                         
-                        <h2 class="helpuzelf">Help u zelf en <strong><FONT COLOR="#fa9927">registreer!</FONT></strong></h2>
+                        <h2 class="helpuzelf">Help yourself and <strong><FONT COLOR="#fa9927">register!</FONT></strong></h2>
                         <div class="line">
                         </div>
                         <div class="clearfix"></div>
@@ -235,14 +235,14 @@
                          <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Voornaam</label>
-                                    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Uw naam..">
+                                    <label for="exampleInputEmail1">First name</label>
+                                    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Your first name..">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Achternaam</label>
-                                    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Uw achternaam..">
+                                    <label for="exampleInputPassword1">Surname</label>
+                                    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Your surname..">
                                 </div>
                             </div>
                         </div>
@@ -250,32 +250,32 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Email adres</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Uw email..">
+                                    <label for="exampleInputEmail1">Email adress</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email adress..">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Email adres opnieuw</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email opnieuw..">
+                                    <label for="exampleInputPassword1">Repeat email adress</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Repeat email adress..">
                                 </div>
                             </div>
                         </div>
                          <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Wachtwoord</label>
-                                    <input type="password" class="form-control" id="exampleInputEmail1" placeholder="Uw wachtwoord..">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputEmail1" placeholder="Your password..">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Wachtwoord opnieuw</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Wachtwoord opnieuw..">
+                                    <label for="exampleInputPassword1">Repeat password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Repeat password..">
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn tf-btn btn-default">Versturen</button>
+                        <button type="submit" class="btn tf-btn btn-default">Send</button>
                     </form>
 
                 </div>
