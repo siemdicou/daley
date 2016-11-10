@@ -123,21 +123,31 @@ ul, ol{
 }
 /* Navigation */
 
+/* nieuws sectie */
+
+
+.oudberichtcontainer {
+    float:right;
+}
+
+ 
+    
+    
+
+
+
 @media (max-width: 1199px) {
     .oudberichtcontainer {
         margin-top: 30px;
     }
     
-    .containernieuws {
-        margin-left: 30%;
-    }
+   
 }
 
 @media (max-width: 1200px) {
     
 .nieuwsvlak {
         height: 400px;
-        width: 500px;
         background-color: rgba(255,255,255,0.8);
         float: left;
         position: relative;
@@ -145,9 +155,12 @@ ul, ol{
         
     }
     
+    .nieuwsvlak, .oudberichtcontainer {
+        width: 100%;
+    }
+    
     .oudberichtcontainer {
         height: 400px;
-        width: 500px;
         position: relative;
         float: left;
         overflow: scroll;
@@ -208,6 +221,11 @@ ul, ol{
 }
 }
 
+
+
+
+
+
 @media (min-width: 1200px) {
     
     .nieuwsvlak {
@@ -223,7 +241,7 @@ ul, ol{
         height: 400px;
         width: 500px;
         position: relative;
-        float: left;
+        float: right;
         overflow: scroll;
         
         
@@ -269,7 +287,7 @@ ul, ol{
         font-family: 'Montserrat', sans-serif;
     }
     
-    
+    /* nieuws sectie end */
 #tf-menu img{
     
 	width: 200px;
