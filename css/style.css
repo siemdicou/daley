@@ -27,6 +27,12 @@ h1{
 
 }
 
+.browsers {
+    height:60px;
+    width:200px;
+    margin-left: 25px;
+}
+
 .regist {
 	background-color:#ED6205;
     border:2px solid #ED6205;
@@ -149,7 +155,8 @@ ul, ol{
     
 .nieuwsvlak {
         height: 400px;
-        background-color: rgba(255,255,255,0.8);
+        background-color: #fff;
+        box-shadow: 10px;
         float: left;
         position: relative;
         text-align: left;
@@ -406,8 +413,13 @@ background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,
 	font-size: 1em !important;
 }
 
+.tekstkleur {
+    color: rgba(255,255,255,0.8);
+}
 
-
+.tekstkleur2 {
+    color: #5a5a5a;
+}
 a.fa.fa-angle-down {
 	padding: 10px 15px;
 	color: #fff;
@@ -431,6 +443,12 @@ a.fa.fa-angle-down:hover{
 #tf-about{
 	padding: 80px 0;
 	background-color: rgba(255,255,255,0.8);
+	/*height:100vh;*/
+}
+
+#tf-about2{
+	padding: 80px 0;
+	background-color: rgba(0,0,0,0.8);
 	/*height:100vh;*/
 }
 #tf-about .about-text{
@@ -477,7 +495,7 @@ ul.about-list li span{
 	height: auto;
 }
 #tf-we .overlay{
-	background: rgba(0,0,0,0.8);
+	background: rgba(255,255,255,0.8);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
 	background-attachment: fixed;
 	padding: 220px 0;

@@ -102,10 +102,6 @@
             
                 <a href="#" class="tubular-pause"><img class="play-btn" src="img/video/pause.svg"></a>
                 
-                <a href="#" class="tubular-volume-up"><img class="play-btn" src="img/video/vol-up.svg"></a>
-                
-                <a href="#" class="tubular-volume-down"><img class="play-btn" src="img/video/vol-down.svg"></a> 
-                
                 <a href="#" class="tubular-mute"><img class="play-btn" src="img/video/mute.svg"></a>
 
                 <a href="#" class="tubular-back" id="tubular-back"><img class="play-btn" src="img/video/back.svg"></a>
@@ -129,6 +125,7 @@
                     <img src="img/uploads/<?php echo$result_ned[0]['image']?>" class="img-responsive">
                     <a href="#"><img  src="img/apple.jpg" class="apple"></a>
                     <a href="#"><img  src="img/google.jpg" class="playstore"></a>
+                    <a href="#"><img  src="img/browsers.png" class="browsers"></a>
                     
                     
                 </div>
@@ -157,44 +154,20 @@
     </div>
     
 
-     <!-- wie zijn wij
-    ==========================================-->
-    <div id="tf-we" class="text-center">
-        <div class="overlay">
-            <div class="container containernieuws">
-                <h1 class="wiezijnwij">Wie zijn wij?</h1>
-                <Br>
-                    <div class="nieuwsvlak">
-                    <div id="placeholderCurentNews">
-                        <h3 class="nieuwstitle"><?php echo $row1["title"]; ?></h3>
-                        <p class="nieuwstekst"><?php echo $row1["context"]; ?></p>
-                        </div>
-                    </div>
-                     <div class="oudberichtcontainer">
-                    <div id="placeholderNews"></div>
-
-
-                         
-                    <!-- <img src="img/pijltje.png" class="pijltje" /> -->
-                </div>
-            </div>
-            
-        </div>
-       
-    </div>
+    
         
    
 
 
         
         
-        <div id="tf-about" class="text-center">
+        <div id="tf-about2" class="text-center">
            <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
         <div class="container">
 
             <div class="row wiestribble" >
                
-                <div class="col-md-6">
+                <div class="col-md-6 tekstkleur">
                     <div class="about-text">
                         <div class="section-title">
                             <h2><?php   echo $result_ned[1]['pageTitle']; ?></h2>
@@ -222,6 +195,32 @@
         </div>
                     
 
+    </div>
+      
+       <!-- nieuws
+    ==========================================-->
+    <div id="tf-we" class="text-center">
+        <div class="overlay">
+            <div class="container containernieuws">
+                <h1 class="wiezijnwij tekstkleur2">Nieuws</h1>
+                <Br>
+                    <div class="nieuwsvlak">
+                    <div id="placeholderCurentNews">
+                        <h3 class="nieuwstitle"><?php echo $row1["title"]; ?></h3>
+                        <p class="nieuwstekst"><?php echo $row1["context"]; ?></p>
+                        </div>
+                    </div>
+                     <div class="oudberichtcontainer">
+                    <div id="placeholderNews"></div>
+
+
+                         
+                    <!-- <img src="img/pijltje.png" class="pijltje" /> -->
+                </div>
+            </div>
+            
+        </div>
+       
     </div>
     <!-- Contact Section
     ==========================================-->
