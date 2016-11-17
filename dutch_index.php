@@ -233,7 +233,7 @@
 
                     <div class="section-title center">
                         
-                        <h2 class="helpuzelf">Help u zelf en <strong><FONT COLOR="#fa9927">registreer!</FONT></strong></h2>
+                        <h2 class="helpuzelf">Help iemand en <strong><FONT COLOR="#fa9927">registreer!</FONT></strong></h2>
                         <div class="line">
                         </div>
                         <div class="clearfix"></div>

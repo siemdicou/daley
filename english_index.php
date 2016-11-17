@@ -49,9 +49,11 @@
             <div class="language">
                 
                     <select id="select" >
-                        <option id="english" value="index.php?lang=english"  data-imagesrc="img/en.png"></option>
+                        
                         <option id="dutch" value="index.php?lang=dutch" data-imagesrc="img/nl.png"></option>
+                        <option id="english" value="index.php?lang=english"  data-imagesrc="img/en.png"></option>
                     </select>
+                
             </div>  
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -85,7 +87,7 @@
     <div id="tf-home" class="text-center">
         <div class="overlay">
             <div class="content">
-                <span class="color"><h1>Daley, your daily assistent.</h1></span>
+                <span class="color"><h1>Daley, your daley assistant.</h1></span>
 
                 
                  <p id="video-controls" class="black-65">
@@ -99,10 +101,6 @@
                 <a href="#" class="tubular-play"><img class="play-btn" src="img/video/play-button.svg"></a>
             
                 <a href="#" class="tubular-pause"><img class="play-btn" src="img/video/pause.svg"></a>
-                
-                <a href="#" class="tubular-volume-up"><img class="play-btn" src="img/video/vol-up.svg"></a>
-                
-                <a href="#" class="tubular-volume-down"><img class="play-btn" src="img/video/vol-down.svg"></a> 
                 
                 <a href="#" class="tubular-mute"><img class="play-btn" src="img/video/mute.svg"></a>
 
@@ -124,16 +122,17 @@
 
             <div class="row wiestribble" >
                 <div class="col-md-6">
-                    <img src="img/uploads/<?php echo$result_eng[0]['image']?>" class="img-responsive">
+                    <img src="img/uploads/<?php echo$result_ned[0]['image']?>" class="img-responsive">
                     <a href="#"><img  src="img/apple.jpg" class="apple"></a>
                     <a href="#"><img  src="img/google.jpg" class="playstore"></a>
+                    <a href="#"><img  src="img/browsers.png" class="browsers"></a>
                     
                     
                 </div>
                 <div class="col-md-6">
                     <div class="about-text">
                         <div class="section-title">
-                            <h2><?php   echo $result_eng[0]['pageTitle']; ?></h2>
+                            <h2><?php   echo $result_ned[0]['pageTitle']; ?></h2>
                            <div class="clearfix"></div>
                             <hr>
                         </div>
@@ -143,7 +142,7 @@
                             <br>
                             
                             <p class="waaromstrible">
-                            <?php   echo $result_eng[0]['pageCont']; ?>
+                            <?php   echo $result_ned[0]['pageCont']; ?>
                         </p>
                     </div>
                 </div>
@@ -155,17 +154,60 @@
     </div>
     
 
-     <!-- wie zijn wij
+    
+        
+   
+
+
+        
+        
+        <div id="tf-about2" class="text-center">
+           <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+        <div class="container">
+
+            <div class="row wiestribble" >
+               
+                <div class="col-md-6 tekstkleur">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h2><?php   echo $result_ned[1]['pageTitle']; ?></h2>
+                           <div class="clearfix"></div>
+                            <hr>
+                        </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <p class="waaromstrible">
+                            <?php   echo $result_ned[1]['pageCont']; ?>
+                        </p>
+                    </div>
+                </div>
+                 <div class="col-md-6">
+                    <img src="img/uploads/<?php echo$result_ned[1]['image']?>" class="img-responsive">
+                  
+                    
+                    
+                </div>
+            </div>
+
+        </div>
+                    
+
+    </div>
+      
+       <!-- nieuws
     ==========================================-->
     <div id="tf-we" class="text-center">
         <div class="overlay">
             <div class="container containernieuws">
-                <h1 class="wiezijnwij">News</h1>
+                <h1 class="wiezijnwij tekstkleur2">News</h1>
                 <Br>
                     <div class="nieuwsvlak">
                     <div id="placeholderCurentNews">
-                        <h3 class="nieuwstitle"><?php echo $row2["title"]; ?></h3>
-                        <p class="nieuwstekst"><?php echo $row2["context"]; ?></p>
+                        <h3 class="nieuwstitle"><?php echo $row1["title"]; ?></h3>
+                        <p class="nieuwstekst"><?php echo $row1["context"]; ?></p>
                         </div>
                     </div>
                      <div class="oudberichtcontainer">
@@ -180,39 +222,6 @@
         </div>
        
     </div>
-        
-   
-        
-        
-        <div id="tf-about" class="text-center">
-           <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
-        <div class="container">
-
-            <div class="row wiestribble" >
-               
-                <div class="col-md-6">
-                    <div class="about-text">
-                        <div class="section-title">
-                            <h2><?php   echo $result_eng[1]['pageTitle']; ?></h2>
-                           <div class="clearfix"></div>
-                            <hr>
-                        </div>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            
-                            <p class="waaromstrible">
-                            <?php   echo $result_eng[1]['pageCont']; ?>
-                        </p>
-                    </div>
-                </div>
-                 <div class="col-md-6">
-                    <img src="img/uploads/<?php echo$result_eng[1]['image']?>" class="img-responsive">
-                </div>
-            </div>
-        </div>                    
-    </div>
     <!-- Contact Section
     ==========================================-->
     <div id="tf-contact" class="text-center">
@@ -224,7 +233,7 @@
 
                     <div class="section-title center">
                         
-                        <h2 class="helpuzelf">Help yourself and <strong><FONT COLOR="#fa9927">register!</FONT></strong></h2>
+                        <h2 class="helpuzelf">Help someone and <strong><FONT COLOR="#fa9927">register!</FONT></strong></h2>
                         <div class="line">
                         </div>
                         <div class="clearfix"></div>
@@ -235,8 +244,8 @@
                          <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">First name</label>
-                                    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Your first name..">
+                                    <label for="exampleInputEmail1">Name</label>
+                                    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Your name..">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -251,13 +260,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email adress</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email adress..">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="your email..">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Repeat email adress</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Repeat email adress..">
+                                    <label for="exampleInputPassword1">Email adress again</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email again..">
                                 </div>
                             </div>
                         </div>
@@ -270,12 +279,12 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Repeat password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Repeat password..">
+                                    <label for="exampleInputPassword1">Password again</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Your password again..">
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn tf-btn btn-default">Send</button>
+                        <button type="submit" class="btn tf-btn btn-default">send</button>
                     </form>
 
                 </div>
@@ -292,7 +301,7 @@
             
             <div class="pull-left fnav">
                 <div class="copyright">
-                        © 2015 - 2016 All rights reserved. Trademark and intelectual property owned by <a style="color:#222222;" href="http://www.almisasolutions.com/" target="_blank">Almisa Solutions</a>. <a style="color:#222222;" href="http://kynsel.com/terms-and-conditions/">Terms and Conditions</a> - <a style="color:#222222;" href="http://kynsel.com/privacy-policy/">Privacy policy</a> - <a style="color:#222222;" href="http://kynsel.com/about-us/">About us</a> - <a style="color: #222222;" href="http://kynsel.com/faq/">FAQ's</a>                    </div>
+						© 2015 - 2016 All rights reserved. Trademark and intelectual property owned by <a style="color:#222222;" href="http://www.almisasolutions.com/" target="_blank">Almisa Solutions</a>. <a style="color:#222222;" href="http://kynsel.com/terms-and-conditions/">Terms and Conditions</a> - <a style="color:#222222;" href="http://kynsel.com/privacy-policy/">Privacy policy</a> - <a style="color:#222222;" href="http://kynsel.com/about-us/">About us</a> - <a style="color: #222222;" href="http://kynsel.com/faq/">FAQ's</a>					</div>
             </div>
         </div>
     </nav>
@@ -360,7 +369,7 @@ $(document).ready( function() {
                 document.getElementById("placeholderNews").innerHTML = xhttp.responseText;
             }
         };
-        xhttp.open("GET", "model/getNews_eng.php", true);
+        xhttp.open("GET", "model/getNews.php", true);
         xhttp.send();
     }
     // var clicked = document.getElementById("").click
@@ -371,7 +380,7 @@ $(document).ready( function() {
                 document.getElementById("placeholderCurentNews").innerHTML = xhttp.responseText;
             }
         };
-        xhttp.open("GET", "model/latestNews_eng.php?clicked=" + qrData, true);
+        xhttp.open("GET", "model/latestNews.php?clicked=" + qrData, true);
         xhttp.send();
     }
 
